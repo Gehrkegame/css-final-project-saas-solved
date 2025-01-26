@@ -35,3 +35,44 @@ header {
 .header-link a:hover {
   color: rgb(54 142 235);
 }
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url(/assets/bg/background-top.svg);
+  height: 600px;
+}
+
+.top-text {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  padding: 25px 90px;
+}
+
+.top-text h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+top-text p {
+  margin: 0;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.logos {
+  background-color: white;
+  border-radius: 50px;
+  height: 60px;
+}
+
+.logos img {
+  height: 60px;
+  padding: 10px 10px;
+}
