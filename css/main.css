@@ -14,7 +14,16 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
 body {
+  width: 100%;
   background-color: rgb(255, 255, 255);
   font-family: "Roboto", serif;
   margin: 0;
@@ -35,5 +44,5 @@ button {
   width: 100px;
   height: 50px;
   color: white;
-  background-color: rgb(54 142 235);
+  background: rgba(36, 118, 255, 1);
 }
