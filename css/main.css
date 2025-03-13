@@ -23,7 +23,8 @@ h2 {
 }
 
 body {
-  width: 100%;
+  width: 1024px;
+  height: 2532px;
   background-color: rgb(255, 255, 255);
   font-family: "Roboto", serif;
   margin: 0;

@@ -3,18 +3,23 @@ header {
   flex-direction: row;
   justify-content: space-between;
   background-color: white;
-  height: 100px;
+  width: 1024px;
+  height: 86px;
+  padding: 10px 30px;
 }
 
 .header-logo {
-  width: 220px;
-  padding: 25px 25px;
+  width: 154.9px;
+  height: 46.1px;
+  gap: 10px;
 }
 
 .links {
   display: flex;
   flex-direction: row;
-  padding: 20px 70px;
+  justify-content: end;
+  width: 1024px;
+  height: 86px;
 }
 
 .links ul {
@@ -40,15 +45,15 @@ header {
   flex-direction: row;
   gap: 400px;
   height: 575px;
-  width: 100%;
+  width: 1024px;
 }
 
 #background {
   position: absolute;
   left: 333px;
   z-index: -1;
-  width: 77.4%;
-  height: 480px;
+  width: 1024px;
+  height: 543px;
 }
 
 .top-text {
