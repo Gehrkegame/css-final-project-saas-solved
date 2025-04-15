@@ -384,16 +384,12 @@ nav {
 .pricing-title {
   display: flex;
   justify-content: center;
-}
-
-.title {
+  flex-direction: column;
   height: 60px;
   gap: 10px;
-  display: flex;
-  justify-content: center;
 }
 
-.title h1 {
+.pricing-title h1 {
   height: 31px;
   font-family: Inter;
   font-weight: 700;
@@ -401,14 +397,84 @@ nav {
   line-height: 100%;
   text-align: center;
   color: rgba(0, 0, 0, 1);
+  margin: auto;
 }
 
-.title p {
+.pricing-title p {
   height: 19px;
   font-family: Inter;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
   text-align: center;
+  color: rgba(103, 119, 136, 1);
+}
+
+.price-cards {
+  width: 100%;
+  height: 452px;
+  padding-right: 30px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.pricing-table {
+  width: 100%;
+  height: 452px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.primary-table {
+  width: 370px;
+  height: 452px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-width: 1px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(226, 226, 226, 1);
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.plan-header {
+  width: 290px;
+  height: 194px;
+  display: flex;
+  gap: 30px;
+}
+
+.price {
+  width: 114px;
+  height: 61px;
+  display: flex;
+  gap: 7px;
+}
+
+.price h1 {
+  width: 63px;
+  height: 61px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  margin: auto;
+}
+
+.price-end {
+  width: 44px;
+  height: 33px;
+  display: flex;
+  gap: 7px;
+  padding-bottom: 9px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 20px;
+  line-height: 100%;
   color: rgba(103, 119, 136, 1);
 }
