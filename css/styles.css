@@ -445,7 +445,25 @@ nav {
   width: 290px;
   height: 194px;
   display: flex;
+  flex-direction: column;
   gap: 30px;
+}
+
+.plan-header hr {
+  width: 290px;
+  height: 1px;
+  color: rgba(141, 141, 141, 1);
+  margin: auto;
+}
+
+.plan-header p {
+  width: 290px;
+  height: 72px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(103, 119, 136, 1);
 }
 
 .price {
@@ -477,4 +495,31 @@ nav {
   font-size: 20px;
   line-height: 100%;
   color: rgba(103, 119, 136, 1);
+}
+
+.primary-bottom {
+  width: 137px;
+  height: 73px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.price-button {
+  width: 137px;
+  height: 48px;
+  display: flex;
+  gap: 8px;
+  border-radius: 30px;
+  padding: 15px 25px;
+}
+
+.price-button i {
+  width: 18px;
+  height: 18px;
+  font-family: Font Awesome 6 Free;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 100%;
+  background: rgba(255, 255, 255, 1);
 }
