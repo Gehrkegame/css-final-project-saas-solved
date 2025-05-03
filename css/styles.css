@@ -550,6 +550,7 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .features img {
@@ -564,6 +565,16 @@ nav {
   gap: 10px;
 }
 
+.features-items {
+  width: 277px;
+  height: 201px;
+  display: flex;
+  gap: 20px;
+  border-width: 1px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  text-align: start;
+}
 .puzzle {
   width: 237px;
   height: 179px;
@@ -628,25 +639,84 @@ nav {
   width: 564px;
   height: 201px;
   display: flex;
+  flex-direction: row;
   gap: 10px;
 }
 
 .tag {
-  width: 237px;
-  height: 161px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  width: 237px;
+  height: 161px;
+}
+.tag-top {
+  width: 237px;
+  height: 93px;
 }
 
-.tag h2 {
+.tag-button {
+  width: 192px;
+  height: 23px;
   display: flex;
-  flex-direction: row;
+  gap: 10px;
+}
+
+.tag-button h2 {
   width: 122px;
   height: 19px;
   font-family: Inter;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 100%;
   color: rgba(0, 0, 0, 1);
+}
+
+.tag-top button {
+  width: 60px;
+  height: 23px;
+  display: flex;
+  gap: 10px;
+  padding-top: 4px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  border-radius: 15px;
+  background: rgba(1, 201, 167, 1);
+}
+
+.tag-bottom p {
+  width: 237px;
+  height: 48px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(103, 119, 136, 1);
+}
+
+.money {
+  width: 237px;
+  height: 157px;
+  gap: 20px;
+}
+
+.money h2 {
+  width: 107px;
+  height: 22px;
+  display: flex;
+  gap: 10px;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.money p {
+  width: 237px;
+  height: 44px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(103, 119, 136, 1);
 }
