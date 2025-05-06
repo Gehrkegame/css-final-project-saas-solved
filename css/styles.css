@@ -933,7 +933,7 @@ form h2 {
   border: 1px solid rgba(230, 232, 242, 1);
 }
 
-.text-box {
+textarea {
   width: 392px;
   height: 150px;
   display: flex;
@@ -944,5 +944,134 @@ form h2 {
   border: 1px solid rgba(230, 232, 242, 1);
 }
 
-.tex-box textarea {
+.form-group {
+  width: 392px;
+  height: 76px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  border-radius: 5px;
+}
+
+#checkbox {
+  width: 25px;
+  height: 28px;
+  display: flex;
+  gap: 10px;
+  padding-top: 4px;
+  margin: 0px;
+}
+
+.form-group label {
+  width: 351px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-group h3 {
+  width: 351px;
+  height: 44px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(130, 130, 130, 1);
+  margin: 0px;
+}
+
+.policy {
+  width: 290px;
+  height: 22px;
+  display: flex;
+  gap: 28px;
+}
+
+.policy-1 {
+  width: 131px;
+  height: 22px;
+}
+
+.policy-1 p {
+  width: 136px;
+  height: 22px;
+  font-family: SF Pro;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(103, 119, 136, 1);
+}
+.policy-1 hr {
+  width: 131px;
+  height: 1px;
+  border: 1px dotted rgba(103, 119, 136, 1);
+  margin: 0px;
+}
+
+.policy-2 {
+  width: 131px;
+  height: 22px;
+}
+
+.policy-2 p {
+  width: 136px;
+  height: 22px;
+  font-family: SF Pro;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(36, 118, 255, 1);
+}
+
+.policy-2 hr {
+  width: 131px;
+  height: 1px;
+  border-width: 1px;
+  border: 1px dotted rgba(36, 118, 255, 1);
+  margin: 0px;
+}
+
+.submit {
+  width: 125px;
+  height: 45px;
+  display: flex;
+  position: relative;
+  left: 130px;
+  gap: 24px;
+}
+
+.submit input {
+  width: 125px;
+  height: 45px;
+  display: flex;
+  gap: 8px;
+  border-radius: 30px;
+  padding-top: 15px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  background: rgba(36, 118, 255, 1);
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+}
+
+footer {
+  width: 1024px;
+  height: 246px;
+  display: flex;
+  gap: 40px;
+  padding-top: 40px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+}
+
+.address {
+  width: 964px;
+  height: 166px;
+  display: flex;
+  gap: 40px;
 }
