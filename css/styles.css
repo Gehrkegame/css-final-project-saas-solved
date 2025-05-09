@@ -1059,9 +1059,10 @@ textarea {
 }
 
 footer {
-  width: 1024px;
+  width: 100%;
   height: 246px;
   display: flex;
+  justify-content: space-evenly;
   gap: 40px;
   padding-top: 40px;
   padding-right: 30px;
@@ -1069,9 +1070,98 @@ footer {
   padding-left: 30px;
 }
 
-.address {
+.footer-frame {
   width: 964px;
   height: 166px;
   display: flex;
   gap: 40px;
+}
+
+.address {
+  width: 251px;
+  height: 93px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.address p {
+  width: 251px;
+  height: 44px;
+  display: flex;
+  gap: 10px;
+}
+
+.footer-font {
+  width: 100px;
+  height: 30px;
+}
+
+.home {
+  width: 231px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 100%;
+  color: rgba(103, 119, 136, 1);
+}
+
+.fa-location-arrow {
+  width: 11px;
+  height: 14px;
+  padding-top: 2px;
+}
+
+.number {
+  width: 129px;
+  height: 17px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 100%;
+  color: rgba(37, 118, 255, 1);
+}
+
+.fa-phone {
+  width: 12;
+  height: 14;
+  padding-top: 2px;
+  color: rgba(103, 119, 136, 1);
+}
+
+.business-info {
+  width: 673px;
+  height: 166px;
+  display: flex;
+  gap: 49px;
+}
+
+.company {
+  width: 110px;
+  height: 166px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.company ul {
+  width: 110px;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.company h3,
+.footer-features h3,
+.documentation h3,
+.recorces h3 {
+  width: 88px;
+  height: 21px;
+  font-family: SF Pro;
+  font-weight: 860;
+  font-size: 18px;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
 }
