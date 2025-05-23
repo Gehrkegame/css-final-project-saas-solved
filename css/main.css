@@ -45,3 +45,8 @@ button {
   color: white;
   background-color: rgba(36, 118, 255, 1);
 }
+
+button:hover {
+  background-color: white;
+  color: rgba(36, 118, 255, 1);
+}

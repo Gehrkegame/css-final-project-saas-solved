@@ -68,11 +68,6 @@ nav {
   height: 15px;
 }
 
-button:hover {
-  background-color: white;
-  color: rgba(36, 118, 255, 1);
-}
-
 .hero-section {
   display: flex;
   width: 100%;
@@ -512,40 +507,6 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 10px;
-}
-
-.price-button {
-  width: 137px;
-  height: 48px;
-  display: flex;
-  gap: 8px;
-  border-radius: 30px;
-  padding: 15px 25px;
-}
-
-.price-button:hover {
-  background-color: white;
-  color: rgba(36, 118, 255, 1);
-}
-
-.price-button i {
-  width: 18px;
-  height: 18px;
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 100%;
-  color: rgba(255, 255, 255, 1);
-}
-
-.price-button h3 {
-  width: 61px;
-  height: 15px;
-  font-family: Inter;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 100%;
-  color: rgba(255, 255, 255, 1);
-  margin: 0;
 }
 
 .primary-bottom p {
