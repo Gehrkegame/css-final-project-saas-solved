@@ -80,7 +80,7 @@ nav {
 
 .top {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 100%;
   gap: 30px;
 }
@@ -96,7 +96,7 @@ nav {
 }
 
 .title {
-  width: 334px;
+  width: 482px;
   height: 172px;
   display: flex;
   flex-direction: column;
@@ -104,7 +104,7 @@ nav {
 }
 
 .title h1 {
-  width: 334px;
+  width: 440px;
   height: 144px;
   margin-bottom: 0;
   font-family: Inter;
@@ -193,11 +193,12 @@ nav {
   height: 60px;
   position: relative;
   top: 10px;
-  left: 190px;
+  left: 100px;
   border-radius: 30px;
   padding: 10px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.25);
+  animation: right-way 3s none;
 }
 
 .atlassin {
@@ -205,22 +206,24 @@ nav {
   height: 80px;
   position: relative;
   top: 10px;
-  left: 240px;
+  left: 200px;
   border-radius: 40px;
   padding: 16px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.25);
+  animation: upward 3s none;
 }
 .asana {
   width: 80px;
   height: 80px;
   position: relative;
   top: 10px;
-  left: 380px;
+  left: 320px;
   border-radius: 40px;
   padding: 16px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.25);
+  animation: right-way 3s none;
 }
 .paypal {
   width: 80px;
@@ -232,6 +235,7 @@ nav {
   padding: 16px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.25);
+  animation: upward 3s none;
 }
 .google-ads {
   width: 60px;
@@ -243,6 +247,7 @@ nav {
   padding: 10px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.25);
+  animation: right-way 3s none;
 }
 
 .weave {
@@ -255,6 +260,7 @@ nav {
   padding: 16px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.25);
+  animation: upward 3s none;
 }
 .calender {
   width: 80px;
@@ -266,6 +272,43 @@ nav {
   padding: 16px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.25);
+  animation: upward 3s none;
+}
+
+@keyframes right-way {
+  from {
+    transform: translate(50px);
+  }
+
+  to {
+    transform: translate(-50px);
+  }
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 2;
+  }
+}
+
+@keyframes upward {
+  from {
+    transform: translateY(100px);
+  }
+
+  to {
+    transform: translateY(-10px);
+  }
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 2;
+  }
 }
 
 .why {
@@ -501,6 +544,10 @@ nav {
   color: rgba(103, 119, 136, 1);
 }
 
+#credit {
+  color: rgba(103, 119, 136, 1);
+}
+
 .primary-bottom {
   width: 137px;
   height: 73px;
@@ -516,7 +563,6 @@ nav {
   font-weight: 500;
   font-size: 12px;
   line-height: 100%;
-  color: rgba(103, 119, 136, 1);
 }
 
 .features {
