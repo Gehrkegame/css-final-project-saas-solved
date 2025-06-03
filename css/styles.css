@@ -88,6 +88,8 @@ nav {
   padding-right: 30px;
   padding-left: 30px;
   background-image: url(/assets/bg/background-top.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .top {
@@ -98,13 +100,11 @@ nav {
 }
 
 .left-part {
-  width: 482px;
-  height: 406px;
-  padding-top: 30px;
-  padding-bottom: 60px;
-  display: flex;
-  flex-direction: column;
+  width: 712;
+  height: 305;
   gap: 30px;
+  padding-bottom: 60px;
+  flex-direction: column;
 }
 
 .title {

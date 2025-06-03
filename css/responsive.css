@@ -1,46 +1,32 @@
 @media (min-width: 768px) AND (max-width: 1023px) {
   body {
-    width: 156%;
+    width: 768px;
+    height: 750px;
   }
+
   header {
     width: 772px;
     height: 86px;
-    display: flex;
     justify-content: space-between;
     padding-top: 10px;
     padding-right: 30px;
     padding-bottom: 10px;
     padding-left: 30px;
-    background: rgba(246, 248, 250, 1);
   }
 
   .header-container {
     width: 772px;
-    height: 86px;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 30px;
+    height: 750px;
   }
 
-  .header-logo {
-    width: 154.9px;
-    height: 46.1px;
-  }
   .top {
     width: 772px;
-    height: 750px;
-    flex-direction: column;
-  }
-
-  .hero-section {
     height: 664px;
     gap: 10px;
     padding-top: 40px;
     padding-right: 30px;
     padding-left: 30px;
-    background-image: url(/assets/bg/background-top.svg);
+    flex-direction: column;
   }
 
   .left-part {
@@ -49,12 +35,12 @@
     display: flex;
     gap: 30px;
     padding-bottom: 60px;
+    padding-left: 120px;
   }
 
   .title {
     width: 400px;
     height: 76px;
-    display: flex;
     gap: 11px;
   }
 
@@ -68,6 +54,29 @@
     letter-spacing: 0%;
     text-align: center;
     color: rgba(0, 0, 0, 1);
+    position: relative;
+    right: 500px;
+  }
+
+  .title p {
+    width: 334px;
+    height: 17px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(103, 119, 136, 1);
+    position: relative;
+    left: 65px;
+  }
+
+  .action {
+    width: 712px;
+    height: 48px;
+    gap: 24px;
+    padding-left: 90px;
   }
 
   .right-part {
