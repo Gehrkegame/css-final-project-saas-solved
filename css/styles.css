@@ -340,7 +340,7 @@ nav {
   display: flex;
   flex-direction: column;
   position: relative;
-  left: 575px;
+  left: 400px;
   width: 600px;
   height: 89px;
   gap: 10px;
@@ -373,7 +373,7 @@ nav {
   padding-right: 34px;
   padding-left: 34px;
   position: relative;
-  left: 410px;
+  left: 210px;
 }
 
 .dot-container {

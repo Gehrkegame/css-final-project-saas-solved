@@ -1,7 +1,17 @@
 @media (min-width: 768px) AND (max-width: 1023px) {
+  body {
+    width: 156%;
+  }
   header {
-    width: fit-content;
-    height: 750px;
+    width: 772px;
+    height: 86px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    background: rgba(246, 248, 250, 1);
   }
 
   .header-container {
@@ -21,5 +31,47 @@
   .top {
     width: 772px;
     height: 750px;
+    flex-direction: column;
+  }
+
+  .hero-section {
+    height: 664px;
+    gap: 10px;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-image: url(/assets/bg/background-top.svg);
+  }
+
+  .left-part {
+    width: 712px;
+    height: 305px;
+    display: flex;
+    gap: 30px;
+    padding-bottom: 60px;
+  }
+
+  .title {
+    width: 400px;
+    height: 76px;
+    display: flex;
+    gap: 11px;
+  }
+
+  .title h1 {
+    width: 1435px;
+    height: 48px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .right-part {
+    width: 712px;
+    height: 309px;
   }
 }
