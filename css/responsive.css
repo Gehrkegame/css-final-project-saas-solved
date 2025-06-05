@@ -19,6 +19,31 @@
     height: 750px;
   }
 
+  .nav-links {
+    width: 46px;
+    height: 32px;
+    gap: 30px;
+    padding-top: 6px;
+    padding-right: 14px;
+    padding-bottom: 6px;
+    padding-left: 14px;
+  }
+
+  .header-link {
+    display: none;
+  }
+
+  .buy-button {
+    display: none;
+  }
+
+  .bars {
+    width: 18px;
+    height: 20px;
+    display: flex;
+    gap: 20px;
+  }
+
   .top {
     width: 772px;
     height: 664px;
@@ -41,19 +66,13 @@
   .title {
     width: 400px;
     height: 76px;
-    gap: 11px;
+    gap: 65px;
   }
 
   .title h1 {
     width: 1435px;
     height: 48px;
-    font-family: Inter;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 100%;
-    letter-spacing: 0%;
     text-align: center;
-    color: rgba(0, 0, 0, 1);
     position: relative;
     right: 500px;
   }
@@ -61,13 +80,7 @@
   .title p {
     width: 334px;
     height: 17px;
-    font-family: Inter;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 0%;
     text-align: center;
-    color: rgba(103, 119, 136, 1);
     position: relative;
     left: 65px;
   }

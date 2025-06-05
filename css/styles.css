@@ -44,8 +44,12 @@ nav {
   height: 17px;
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 13px;
   margin-top: 15px;
+}
+
+.bars {
+  display: none;
 }
 
 .header-link a {
@@ -70,7 +74,7 @@ nav {
   gap: 20px;
   font-family: Inter;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 100%;
   color: rgba(255, 255, 255, 1);
 }
@@ -100,8 +104,9 @@ nav {
 }
 
 .left-part {
-  width: 712;
-  height: 305;
+  width: 712px;
+  height: 305px;
+  display: flex;
   gap: 30px;
   padding-bottom: 60px;
   flex-direction: column;
@@ -697,7 +702,7 @@ nav {
   height: 19px;
   font-family: Inter;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 100%;
   color: rgba(0, 0, 0, 1);
 }
@@ -874,7 +879,7 @@ nav {
   height: 17px;
   font-family: Inter;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 100%;
   color: rgba(103, 119, 136, 1);
 }
