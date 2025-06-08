@@ -58,7 +58,7 @@
     width: 712px;
     height: 305px;
     display: flex;
-    gap: 30px;
+    gap: 70px;
     padding-bottom: 60px;
     padding-left: 120px;
   }
@@ -95,5 +95,44 @@
   .right-part {
     width: 712px;
     height: 309px;
+  }
+
+  .google {
+    left: 110px;
+    animation: none;
+  }
+
+  .atlassin {
+    left: 287px;
+    animation: none;
+  }
+
+  .asana {
+    left: 533px;
+    animation: none;
+  }
+
+  .paypal {
+    top: 99px;
+    left: 112px;
+    animation: none;
+  }
+
+  .weave {
+    top: 99px;
+    left: 414px;
+    animation: none;
+  }
+
+  .google-ads {
+    top: 209px;
+    left: 230px;
+    animation: none;
+  }
+
+  .calender {
+    top: 229px;
+    left: 517px;
+    animation: none;
   }
 }
