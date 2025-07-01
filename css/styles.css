@@ -328,6 +328,15 @@ nav {
   }
 }
 
+.why-section {
+  width: 1024px;
+  height: 354px;
+  display: flex;
+  gap: 40px;
+  padding-right: 30px;
+  padding-bottom: 80px;
+  padding-left: 30px;
+}
 .why {
   display: flex;
   flex-direction: column;

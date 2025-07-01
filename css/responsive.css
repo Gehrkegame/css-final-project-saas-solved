@@ -53,6 +53,7 @@
     padding-top: 40px;
     padding-right: 30px;
     padding-left: 30px;
+    background-position-y: -290px;
   }
 
   .top {
@@ -88,61 +89,116 @@
   }
 
   .title p {
-    width: 334px;
+    width: 340px;
     height: 17px;
     text-align: center;
     position: relative;
-    left: 65px;
+    left: 50px;
   }
 
   .action {
     width: 712px;
     height: 48px;
     gap: 24px;
-    padding-left: 90px;
+    padding-left: 100px;
+    padding-top: 30px;
+  }
+
+  .play-button {
+    width: 137px;
+    height: 48px;
+    gap: 8px;
+    padding-top: 15px;
+    padding-left: 25px;
+    border-radius: 30px;
+  }
+
+  #play-text {
+    width: 61px;
+    height: 15px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-top: 4px;
   }
 
   .right-part {
-    width: 712px;
+    width: 680px;
     height: 309px;
   }
 
   .google {
-    left: 110px;
+    left: 75px;
     animation: none;
   }
 
   .atlassin {
-    left: 287px;
+    left: 185px;
     animation: none;
   }
 
   .asana {
-    left: 533px;
+    left: 360px;
     animation: none;
   }
 
   .paypal {
     top: 99px;
-    left: 112px;
+    right: 127px;
     animation: none;
   }
 
   .weave {
-    top: 99px;
-    left: 414px;
+    top: 115px;
     animation: none;
+    left: 10px;
   }
 
   .google-ads {
     top: 209px;
-    left: 230px;
+    right: 110px;
     animation: none;
   }
 
   .calender {
-    top: 229px;
-    left: 517px;
+    top: 224px;
+    right: -50px;
     animation: none;
+  }
+
+  .why-section {
+    width: 768px;
+    height: 354px;
+    gap: 40px;
+    padding-bottom: 80px;
+  }
+
+  .why-text {
+    width: 600px;
+    height: 89px;
+    gap: 10px;
+    position: inherit;
+    margin-top: 25px;
+  }
+
+  .why-text p {
+    margin-left: 20px;
+  }
+
+  .why-list {
+    width: 768px;
+    height: 145px;
+    position: inherit;
+  }
+
+  .dot-container {
+    width: 175px;
+    height: 145px;
+    display: flex;
+    gap: 24px;
+    padding-top: 26px;
+    padding-bottom: 26px;
   }
 }
