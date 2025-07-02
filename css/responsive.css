@@ -100,8 +100,7 @@
     width: 712px;
     height: 48px;
     gap: 24px;
-    padding-left: 100px;
-    padding-top: 30px;
+    padding-left: 70px;
   }
 
   .play-button {
@@ -130,16 +129,19 @@
   }
 
   .google {
+    top: 0px;
     left: 75px;
     animation: none;
   }
 
   .atlassin {
+    top: 0;
     left: 185px;
     animation: none;
   }
 
   .asana {
+    top: 0;
     left: 360px;
     animation: none;
   }
@@ -181,6 +183,7 @@
     gap: 10px;
     position: inherit;
     margin-top: 25px;
+    margin-left: 15px;
   }
 
   .why-text p {
@@ -188,17 +191,33 @@
   }
 
   .why-list {
-    width: 768px;
+    width: 700px;
     height: 145px;
     position: inherit;
+    padding-left: 0px;
+    justify-content: center;
   }
 
   .dot-container {
-    width: 175px;
+    width: 180px;
     height: 145px;
     display: flex;
-    gap: 24px;
+    flex-direction: column;
+    gap: 0px;
     padding-top: 26px;
     padding-bottom: 26px;
+  }
+
+  .dot-text {
+    margin-left: 45px;
+  }
+  .dots-text {
+    font-size: 15px;
+  }
+
+  .combined {
+    margin-left: 19px;
+    position: relative;
+    left: 20px;
   }
 }
