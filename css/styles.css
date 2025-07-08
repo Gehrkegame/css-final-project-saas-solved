@@ -985,6 +985,11 @@ form h2 {
   border: 1px solid rgba(230, 232, 242, 1);
 }
 
+#budget,
+#country {
+  background-color: rgba(230, 232, 242, 1);
+}
+
 textarea {
   width: 392px;
   height: 150px;
