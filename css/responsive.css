@@ -52,7 +52,7 @@
     gap: 10px;
     padding-right: 30px;
     padding-left: 30px;
-    background-position-y: -290px;
+    background-position-y: -340px;
     background-position-x: 70px;
   }
 
@@ -97,7 +97,7 @@
   }
 
   .action {
-    width: 712px;
+    width: 390px;
     height: 48px;
     gap: 24px;
     padding-left: 70px;
@@ -294,7 +294,6 @@
 
   .price-hr {
     width: 600px;
-    height: 1px;
     gap: 10px;
     display: flex;
   }
@@ -318,12 +317,11 @@
     width: 335px;
     height: 219px;
     gap: 20px;
-    border-width: 1px;
     padding: 20px;
   }
 
   .puzzle p {
-    width: 295px;
+    width: 293px;
   }
 
   .diamond p {
@@ -385,11 +383,6 @@
   .money p {
     width: 295px;
     height: 44px;
-    font-family: Inter;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 22px;
-    letter-spacing: 0%;
   }
 
   .hire-us-section {
@@ -438,7 +431,7 @@
   .person {
     width: 192px;
     height: 43px;
-    gap: 4px;
+    gap: 5px;
   }
 
   #man-one {
@@ -488,16 +481,13 @@
   }
 
   .email {
-    position: relative;
-    right: 20px;
     width: 610px;
   }
 
-  .email,
   .where-you-live {
     width: 610px;
     height: 44px;
-    gap: 20;
+    gap: 20px;
   }
 
   #e-mail {
@@ -506,7 +496,7 @@
   }
 
   .where-you-live select {
-    background-color: rgba(230, 232, 242, 1);
+    background-color: rgb(255, 255, 255);
   }
 
   #budget,
@@ -580,14 +570,121 @@
   }
 
   .footer-one {
+    display: flex;
+    flex-wrap: wrap;
     width: 417px;
     height: 166px;
-    gap: 80px;
+    gap: 25px;
   }
 
   .footer-two {
+    display: flex;
+    flex-wrap: wrap;
     width: 304px;
     height: 166px;
     gap: 49px;
+  }
+}
+
+@media (min-width: 360px) AND (max-width: 767px) {
+  header {
+    width: 360px;
+    height: 86px;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+  }
+
+  .header-container {
+    width: 330px;
+    height: 86px;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    gap: 80px;
+  }
+
+  .header-logo {
+    width: 155px;
+    height: 48px;
+    gap: 10px;
+    padding-right: 9px;
+    justify-content: end;
+  }
+
+  .nav-links,
+  .buy-button {
+    display: none;
+  }
+
+  .bars {
+    width: 46px;
+    height: 32px;
+    gap: 30px;
+    padding-top: 6px;
+    padding-right: 14px;
+    padding-bottom: 6px;
+    padding-left: 14px;
+    display: flex;
+  }
+
+  .fa-bars {
+    width: 18px;
+    height: 20px;
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(103, 119, 136);
+  }
+
+  .hero-section {
+    width: 360px;
+    height: 594px;
+    gap: 10px;
+    padding-top: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-size: 375px;
+  }
+
+  .top {
+    flex-direction: column;
+  }
+
+  .left-part {
+    width: 328px;
+    height: 235px;
+    gap: 30px;
+    padding-bottom: 60px;
+  }
+
+  .title {
+    width: 328px;
+    height: 107px;
+    gap: 11px;
+  }
+
+  .title h1 {
+    width: 328px;
+    height: 62px;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .title p {
+    width: 328px;
+    height: 34px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .action {
+    width: 328px;
+    height: 48px;
+    gap: 24px;
+    justify-content: center;
   }
 }
