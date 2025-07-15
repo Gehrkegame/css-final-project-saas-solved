@@ -3,7 +3,7 @@ header {
   height: 86px;
   display: flex;
   justify-content: space-between;
-  padding: 10px 30px;
+  padding: 10px 0px;
   background-color: rgba(246, 248, 250, 1);
 }
 
@@ -27,7 +27,7 @@ header {
 }
 
 .links {
-  width: 471px;
+  width: 450px;
   height: 57px;
   padding: 6px 14px;
   display: flex;
@@ -40,7 +40,7 @@ nav {
 }
 
 .nav-links {
-  width: 311px;
+  width: 295px;
   height: 17px;
   display: flex;
   flex-direction: row;
@@ -88,23 +88,29 @@ nav {
   display: flex;
   width: 100%;
   height: 446px;
-  padding-top: 40px;
   padding-right: 30px;
   padding-left: 30px;
-  background-image: url(/assets/bg/background-top.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+}
+
+.bg {
+  height: 450px;
+  width: 100%;
+  z-index: -1;
+  display: flex;
+  position: absolute;
 }
 
 .top {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 970px;
   gap: 30px;
+  position: absolute;
+  left: 330px;
 }
 
 .left-part {
-  width: 712px;
+  width: 482px;
   height: 305px;
   display: flex;
   gap: 30px;
@@ -121,7 +127,7 @@ nav {
 }
 
 .title h1 {
-  width: 440px;
+  width: 334px;
   height: 144px;
   margin-bottom: 0;
   font-family: Inter;
@@ -191,7 +197,8 @@ nav {
   width: 482px;
   height: 406px;
   position: relative;
-  right: 10px;
+  right: 70px;
+  padding-top: 20px;
 }
 
 .logos img {
@@ -210,7 +217,7 @@ nav {
   height: 60px;
   position: relative;
   top: 10px;
-  left: 100px;
+  left: 130px;
   border-radius: 30px;
   padding: 10px;
   background: rgba(255, 255, 255, 1);
@@ -223,7 +230,7 @@ nav {
   height: 80px;
   position: relative;
   top: 10px;
-  left: 200px;
+  left: 175px;
   border-radius: 40px;
   padding: 16px;
   background: rgba(255, 255, 255, 1);
@@ -235,7 +242,7 @@ nav {
   height: 80px;
   position: relative;
   top: 10px;
-  left: 320px;
+  left: 290px;
   border-radius: 40px;
   padding: 16px;
   background: rgba(255, 255, 255, 1);
@@ -247,7 +254,7 @@ nav {
   height: 80px;
   position: relative;
   top: 172px;
-  right: 60px;
+  right: 100px;
   border-radius: 40px;
   padding: 16px;
   background: rgba(255, 255, 255, 1);
@@ -259,7 +266,7 @@ nav {
   height: 60px;
   position: relative;
   top: 290px;
-
+  right: 80px;
   border-radius: 30px;
   padding: 10px;
   background: rgba(255, 255, 255, 1);
@@ -272,7 +279,7 @@ nav {
   height: 80px;
   position: relative;
   top: 172px;
-  left: 60px;
+  right: 50px;
   border-radius: 40px;
   padding: 16px;
   background: rgba(255, 255, 255, 1);
@@ -284,7 +291,7 @@ nav {
   height: 80px;
   position: relative;
   top: 310px;
-  left: 80px;
+  right: 20px;
   border-radius: 40px;
   padding: 16px;
   background: rgba(255, 255, 255, 1);

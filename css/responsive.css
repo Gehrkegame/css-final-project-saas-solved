@@ -647,7 +647,7 @@
     padding-top: 40px;
     padding-left: 16px;
     padding-right: 16px;
-    background-size: 375px;
+    background-size: 380px;
   }
 
   .top {
@@ -670,7 +670,7 @@
   .title h1 {
     width: 328px;
     height: 62px;
-    font-size: 26px;
+    font-size: 27px;
     text-align: center;
   }
 
@@ -682,7 +682,7 @@
   }
 
   .action {
-    width: 328px;
+    width: 310px;
     height: 48px;
     gap: 24px;
     justify-content: center;
