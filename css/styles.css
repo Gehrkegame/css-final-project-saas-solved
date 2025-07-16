@@ -1177,6 +1177,13 @@ footer {
   height: 166px;
   display: flex;
   gap: 49px;
+  justify-content: space-evenly;
+}
+
+.footer-one,
+.footer-two {
+  display: flex;
+  gap: 40px;
 }
 
 .company {
@@ -1187,6 +1194,23 @@ footer {
   gap: 20px;
 }
 
+.hiring-button:hover {
+  background-color: white;
+  color: rgba(36, 118, 255, 1);
+}
+
+.company h3,
+.footer-features h3,
+.documentation h3,
+.resources h3 {
+  width: 88px;
+  height: 21px;
+  font-family: SF Pro;
+  font-weight: 860;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
 .company-list {
   width: 110px;
   height: 125px;
@@ -1195,7 +1219,21 @@ footer {
   gap: 10px;
 }
 
-.company-list h4 {
+.company-list ul,
+.footer-features-list ul,
+.documentation-list ul,
+.resources-list ul {
+  width: 110px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.company-list li,
+.footer-features-list li,
+.documentation-list li,
+.resources li {
   width: 110px;
   height: 17px;
   margin: 0px;
@@ -1204,6 +1242,8 @@ footer {
   font-size: 14px;
   line-height: 100%;
   color: rgba(103, 119, 136, 1);
+  display: flex;
+  gap: 9px;
 }
 
 .career {
@@ -1221,7 +1261,7 @@ footer {
   padding-bottom: 2px;
   padding-left: 4px;
   border-radius: 3px;
-  color: rgba(37, 118, 255, 1);
+  background: rgba(37, 118, 255, 1);
 }
 .hiring-button h4 {
   width: 47px;
@@ -1232,19 +1272,9 @@ footer {
   line-height: 100%;
   letter-spacing: 0%;
   color: rgba(255, 255, 255, 1);
-}
-.company h3,
-.footer-features h3,
-.documentation h3,
-.resources h3 {
-  width: 88px;
-  height: 21px;
-  font-family: SF Pro;
-  font-weight: 860;
-  font-size: 18px;
-  line-height: 100%;
-  color: rgba(0, 0, 0, 1);
-  margin: 0px;
+  position: relative;
+  bottom: 10px;
+  left: 4px;
 }
 
 .footer-features {
@@ -1263,11 +1293,11 @@ footer {
   gap: 10px;
 }
 
-.footer-features-list :hover {
+.footer-features-list ul :hover {
   color: rgba(36, 118, 255, 1);
 }
 
-.footer-features-list h4 {
+.footer-features-list ul {
   width: 95px;
   height: 17px;
   margin: 0px;
