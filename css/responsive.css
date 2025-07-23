@@ -125,6 +125,7 @@
   .right-part {
     width: 680px;
     height: 309px;
+    right: 0px;
   }
 
   .google {
@@ -146,8 +147,8 @@
   }
 
   .paypal {
-    top: 99px;
-    right: 127px;
+    top: 100px;
+    right: 130px;
     animation: none;
   }
 
@@ -202,8 +203,6 @@
     display: flex;
     flex-direction: column;
     gap: 0px;
-    padding-top: 26px;
-    padding-bottom: 26px;
   }
 
   .dot-text {
@@ -254,7 +253,6 @@
     width: 680px;
     height: 373px;
     gap: 50px;
-    border-width: 1px;
     padding: 40px;
   }
 
@@ -388,7 +386,6 @@
   .hire-us-section {
     width: 768px;
     height: 984px;
-    padding: 30px;
     flex-direction: column;
     gap: 30px;
   }
@@ -418,7 +415,6 @@
 
   .hire-hr {
     width: 396px;
-    height: 1px;
     margin: 0px;
   }
 
@@ -449,13 +445,11 @@
     width: 648px;
     height: 624px;
     gap: 10px;
-    padding: 30px;
   }
 
   form {
     width: 588px;
     height: 482px;
-    gap: 20px;
   }
 
   form h2 {
@@ -482,12 +476,12 @@
 
   .email {
     width: 610px;
+    gap: 0px;
   }
 
   .where-you-live {
     width: 610px;
     height: 44px;
-    gap: 20px;
   }
 
   #e-mail {
@@ -569,12 +563,16 @@
     padding-left: 30px;
   }
 
+  .business-info {
+    flex-direction: column;
+  }
+
   .footer-one {
     display: flex;
     flex-wrap: wrap;
     width: 417px;
     height: 166px;
-    gap: 25px;
+    gap: 80px;
   }
 
   .footer-two {
@@ -590,21 +588,12 @@
   header {
     width: 360px;
     height: 86px;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 30px;
+    padding: 10px 10px;
   }
 
   .header-container {
     width: 330px;
     height: 86px;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 0px;
     gap: 80px;
   }
 
@@ -644,21 +633,23 @@
     width: 360px;
     height: 594px;
     gap: 10px;
-    padding-top: 40px;
     padding-left: 16px;
     padding-right: 16px;
-    background-size: 380px;
+  }
+
+  .bg {
+    height: 400px;
   }
 
   .top {
     flex-direction: column;
+    position: initial;
   }
 
   .left-part {
     width: 328px;
     height: 235px;
     gap: 30px;
-    padding-bottom: 60px;
   }
 
   .title {
@@ -670,7 +661,7 @@
   .title h1 {
     width: 328px;
     height: 62px;
-    font-size: 27px;
+    font-size: 30px;
     text-align: center;
   }
 
@@ -686,5 +677,56 @@
     height: 48px;
     gap: 24px;
     justify-content: center;
+  }
+
+  .right-part {
+    width: 328px;
+    height: 309px;
+    left: 0px;
+  }
+
+  .google,
+  .atlassin,
+  .asana,
+  .paypal,
+  .google-ads,
+  .weave,
+  .calender {
+    animation: none;
+  }
+
+  .google {
+    top: 0px;
+    left: 0px;
+  }
+
+  .atlassin {
+    top: 0px;
+    left: 60px;
+  }
+
+  .asana {
+    top: 0px;
+    left: 110px;
+  }
+
+  .paypal {
+    top: 110px;
+    right: 220px;
+  }
+
+  .google-ads {
+    top: 209px;
+    right: 200px;
+  }
+
+  .weave {
+    top: 110px;
+    right: 180px;
+  }
+
+  .calender {
+    top: 220px;
+    right: 220px;
   }
 }
