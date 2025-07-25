@@ -743,14 +743,13 @@
     gap: 10px;
     padding-right: 16px;
     padding-left: 16px;
-    position: unset;
+    left: 0px;
   }
 
   .why-text h2 {
     width: 141px;
-    height: 31px;
     position: relative;
-    left: 50px;
+    left: 35px;
   }
 
   .why-text p {
@@ -765,8 +764,9 @@
     height: 251px;
     gap: 17px;
     padding-right: 34px;
-    padding-left: 34px;
+    padding-left: 0px;
     flex-direction: column;
+    left: 0px;
   }
 
   .dot-container {
@@ -775,11 +775,44 @@
     gap: 24px;
     display: flex;
     flex-direction: row;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .leftwing-start,
-  .rightwing,
-  .leftwing {
+  #rightwing,
+  #leftwing {
     display: none;
+  }
+
+  .top-dot {
+    width: 50px;
+    height: 50px;
+    gap: 24px;
+  }
+
+  .dot-text {
+    width: 218px;
+    height: 19px;
+    gap: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+  }
+
+  .dots-text {
+    width: 116px;
+    height: 19px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .text-combined {
+    width: 179px;
+    height: 19px;
   }
 }
