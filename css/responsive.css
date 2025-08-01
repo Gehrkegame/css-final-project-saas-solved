@@ -825,7 +825,7 @@
 
   .pricing-container {
     width: 360px;
-    height: 1451px;
+    height: 1200px;
     gap: 60px;
     padding-bottom: 60px;
   }
@@ -891,8 +891,6 @@
   .price-hr {
     width: 248px;
     height: 1px;
-    position: relative;
-    right: 30px;
   }
 
   .primary-bottom {
@@ -905,5 +903,224 @@
   .play-button:hover,
   .primary-table:hover {
     display: none;
+  }
+
+  .features {
+    width: 328px;
+    height: 844px;
+    gap: 10px;
+  }
+
+  .features-one {
+    flex-direction: column;
+    width: 328px;
+    height: 426px;
+    gap: 10px;
+  }
+
+  .features-two {
+    flex-direction: column;
+    width: 328px;
+    height: 408px;
+    gap: 10px;
+  }
+
+  .hire-us-section {
+    width: 362px;
+    height: 1337px;
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .left-path {
+    width: 362px;
+    height: 457px;
+    gap: 60px;
+    padding-top: 40px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+    padding-left: 16px;
+  }
+
+  .hire-top {
+    width: 330px;
+    height: 204px;
+    gap: 32px;
+  }
+
+  .hire-title {
+    width: 330px;
+    height: 65px;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .hire-title h2 {
+    width: 330px;
+    height: 31px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .hire-title p {
+    width: 330px;
+    height: 24px;
+  }
+
+  .hire-hr {
+    width: 330px;
+  }
+
+  .quote {
+    width: 330px;
+    height: 72px;
+  }
+
+  .quote p {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Italic;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 330px;
+    height: 72px;
+  }
+
+  .hire-bottom {
+    width: 330px;
+    height: 133px;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .person {
+    text-align: center;
+    width: 330px;
+  }
+
+  .person h3,
+  .person p {
+    width: 330px;
+  }
+
+  .right-path {
+    width: 362px;
+    height: 880px;
+    gap: 10px;
+    padding-top: 30px;
+    padding-right: 16px;
+    padding-bottom: 30px;
+    padding-left: 16px;
+  }
+
+  .data {
+    width: 330px;
+    height: 820px;
+    gap: 37px;
+    border-radius: 10px;
+    padding: 30px;
+  }
+
+  form {
+    width: 270px;
+    height: 678px;
+    gap: 20px;
+  }
+
+  form h2 {
+    width: 270px;
+    height: 48px;
+  }
+
+  .name {
+    width: 270px;
+    height: 108px;
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  #first-name,
+  #last-name,
+  #email {
+    width: 270px;
+    height: 44px;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border-width: 1px;
+  }
+
+  .where-you-live {
+    width: 270px;
+    height: 108px;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  #budget,
+  #country {
+    background-color: white;
+    width: 270px;
+    height: 44px;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    display: flex;
+  }
+
+  .text-box {
+    width: 270px;
+    height: 150px;
+    border-radius: 5px;
+    padding: 10px;
+    border-width: 1px;
+  }
+
+  #tell-us {
+    width: 270px;
+    height: 150px;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border-width: 1px;
+  }
+
+  .form-group {
+    width: 270px;
+    height: 120px;
+    gap: 16px;
+    border-radius: 5px;
+  }
+
+  .form-group label {
+    width: 229px;
+    height: 120px;
+    gap: 10px;
+  }
+
+  .form-group h3 {
+    width: 200px;
+    height: 88px;
+    font-family: SF Pro;
+    font-weight: 510;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+  }
+
+  .policy {
+    width: 131px;
+    height: 22px;
+    gap: 28px;
   }
 }
