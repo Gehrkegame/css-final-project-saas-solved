@@ -901,7 +901,9 @@
   }
 
   .play-button:hover,
-  .primary-table:hover {
+  .primary-table:hover,
+  .tag-top button:hover,
+  hiring-button:hover {
     display: none;
   }
 
@@ -1040,9 +1042,17 @@
 
   .name {
     width: 270px;
-    height: 108px;
+    height: 150px;
     gap: 15px;
     flex-direction: column;
+  }
+  .email {
+    width: 270px;
+    height: 44px;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border-width: 1px;
   }
 
   #first-name,
@@ -1082,7 +1092,6 @@
     width: 270px;
     height: 150px;
     border-radius: 5px;
-    padding: 10px;
     border-width: 1px;
   }
 
@@ -1122,5 +1131,120 @@
     width: 131px;
     height: 22px;
     gap: 28px;
+  }
+
+  .policy-1 hr {
+    width: 115px;
+    border: 1px dashed rgb(103, 119, 136);
+  }
+
+  #submit {
+    left: 70px;
+  }
+
+  footer {
+    width: 360px;
+    height: 1152px;
+    gap: 40px;
+    padding-top: 80px;
+    padding-right: 16px;
+    padding-bottom: 40px;
+    padding-left: 16px;
+  }
+
+  .footer-fame {
+    width: 328px;
+    height: 1032px;
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  .address {
+    width: 328px;
+    height: 112px;
+    gap: 20px;
+  }
+
+  .footer-font {
+    width: 100px;
+    height: 30px;
+    align-self: center;
+  }
+
+  .home {
+    align-self: center;
+    width: 290px;
+    height: 62px;
+    gap: 20px;
+    font-size: 18px;
+  }
+
+  .number {
+    width: 186px;
+    height: 21px;
+    gap: 10px;
+    align-self: center;
+    font-size: 18px;
+  }
+
+  .business-info {
+    flex-direction: column;
+    width: 328px;
+    height: 880px;
+    gap: 49px;
+  }
+
+  .footer-one,
+  .footer-two {
+    flex-direction: column;
+    width: 327px;
+    height: 600px;
+    gap: 30px;
+  }
+
+  .company,
+  .footer-features,
+  .documentation,
+  .resources {
+    align-self: center;
+    width: 123px;
+    height: 229px;
+    gap: 20px;
+  }
+
+  .company h3,
+  .footer-fratures h3,
+  .documentation h3,
+  .resources h3 {
+    font-size: 20px;
+    width: 97px;
+    height: 24px;
+  }
+
+  .company-list,
+  .footer-features-list,
+  .documentation-list,
+  .resources-list {
+    width: 123px;
+    height: 185px;
+    gap: 20px;
+  }
+
+  .company-list ul,
+  .footer-features-list ul,
+  .documentation-list ul,
+  .resources-list ul {
+    width: 123px;
+    height: 21px;
+    gap: 9px;
+  }
+
+  .company-list li,
+  .footer-features-list li,
+  .documentation-list li,
+  .resources li {
+    width: 53px;
+    height: 21px;
+    font-size: 18px;
   }
 }
