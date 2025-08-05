@@ -697,17 +697,17 @@
   }
 
   .google {
-    top: 0px;
+    top: -15px;
     left: 0px;
   }
 
   .atlassin {
-    top: 0px;
+    top: -15px;
     left: 60px;
   }
 
   .asana {
-    top: 0px;
+    top: -15px;
     left: 110px;
   }
 
@@ -812,10 +812,13 @@
     text-align: center;
   }
 
-  .components,
-  .page {
+  .components {
     position: relative;
     right: 10px;
+  }
+  .text-combined {
+    position: relative;
+    right: 8px;
   }
 
   .text-combined {
@@ -1048,10 +1051,8 @@
   }
   .email {
     width: 270px;
-    height: 44px;
-    gap: 10px;
+    height: 70px;
     border-radius: 5px;
-    padding: 10px;
     border-width: 1px;
   }
 
@@ -1152,7 +1153,7 @@
     padding-left: 16px;
   }
 
-  .footer-fame {
+  .footer-frame {
     width: 328px;
     height: 1032px;
     gap: 40px;
@@ -1190,15 +1191,14 @@
   .business-info {
     flex-direction: column;
     width: 328px;
-    height: 880px;
-    gap: 49px;
+    height: 770px;
   }
 
   .footer-one,
   .footer-two {
     flex-direction: column;
     width: 327px;
-    height: 600px;
+    height: 400px;
     gap: 30px;
   }
 
@@ -1243,8 +1243,56 @@
   .footer-features-list li,
   .documentation-list li,
   .resources li {
-    width: 53px;
+    width: 93px;
     height: 21px;
     font-size: 18px;
+    justify-content: center;
+    padding-right: 20px;
+  }
+
+  .company h3 {
+    position: relative;
+    left: 20px;
+  }
+
+  .company-list {
+    position: relative;
+    right: 15px;
+  }
+
+  .footer-features {
+    position: relative;
+    right: 15px;
+  }
+
+  .footer-features h3 {
+    position: relative;
+    left: 40px;
+  }
+
+  .footer-features ul:hover {
+    display: none;
+  }
+
+  .documentation h3 {
+    position: relative;
+    left: 10px;
+  }
+
+  .documentation-list {
+    position: relative;
+    right: 5px;
+  }
+
+  .resources h3 {
+    position: relative;
+    left: 15px;
+    padding-top: 15px;
+  }
+
+  .resources-list {
+    position: relative;
+    right: 30px;
+    padding-top: 15px;
   }
 }
