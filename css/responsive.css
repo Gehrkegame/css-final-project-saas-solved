@@ -638,6 +638,7 @@
   }
 
   .bg {
+    width: 365px;
     height: 400px;
   }
 
@@ -669,12 +670,12 @@
   .title p {
     width: 328px;
     height: 34px;
-    font-size: 14px;
+    font-size: 15px;
     text-align: center;
   }
 
   .action {
-    width: 310px;
+    width: 341px;
     height: 48px;
     gap: 24px;
     justify-content: center;
@@ -697,17 +698,17 @@
   }
 
   .google {
-    top: -15px;
+    top: 5px;
     left: 0px;
   }
 
   .atlassin {
-    top: -15px;
+    top: 5px;
     left: 60px;
   }
 
   .asana {
-    top: -15px;
+    top: 5px;
     left: 110px;
   }
 
@@ -728,7 +729,7 @@
 
   .calender {
     top: 220px;
-    right: 220px;
+    right: 200px;
   }
 
   .why-section {
@@ -742,32 +743,33 @@
     width: 290px;
     height: 137px;
     gap: 10px;
-    padding-right: 16px;
-    padding-left: 16px;
     left: 0px;
   }
 
   .why-text h2 {
-    width: 141px;
-    position: relative;
-    left: 35px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
   }
 
   .why-text p {
-    width: 320px;
+    width: 310px;
     height: 96px;
     position: relative;
-    right: 55px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
   }
 
   .why-list {
-    width: 360px;
+    width: 270px;
     height: 251px;
     gap: 17px;
     padding-right: 34px;
     padding-left: 0px;
     flex-direction: column;
     left: 0px;
+    margin-top: 40px;
   }
 
   .dot-container {
@@ -826,6 +828,11 @@
     height: 19px;
   }
 
+  .combined {
+    position: relative;
+    left: 16px;
+  }
+
   .pricing-container {
     width: 360px;
     height: 1200px;
@@ -853,7 +860,11 @@
 
   .pricing-table {
     width: 330px;
-    height: 880px;
+    height: 860px;
+  }
+
+  .primary-table:hover {
+    display: none;
   }
 
   .primary-table {
@@ -906,7 +917,7 @@
   .play-button:hover,
   .primary-table:hover,
   .tag-top button:hover,
-  hiring-button:hover {
+  .hiring-button:hover {
     display: none;
   }
 
@@ -914,6 +925,8 @@
     width: 328px;
     height: 844px;
     gap: 10px;
+    position: relative;
+    right: 15px;
   }
 
   .features-one {
@@ -921,6 +934,18 @@
     width: 328px;
     height: 426px;
     gap: 10px;
+  }
+
+  .puzzle p {
+    width: 328px;
+    height: 66px;
+  }
+
+  .diamond p,
+  .tag p,
+  .money p {
+    width: 328px;
+    height: 48px;
   }
 
   .features-two {
@@ -1139,8 +1164,16 @@
     border: 1px dashed rgb(103, 119, 136);
   }
 
-  #submit {
+  .policy:hover {
+    display: none;
+  }
+
+  .submit {
     left: 70px;
+  }
+
+  #submit:hover {
+    display: none;
   }
 
   footer {
@@ -1174,7 +1207,7 @@
 
   .home {
     align-self: center;
-    width: 290px;
+    width: 320px;
     height: 62px;
     gap: 20px;
     font-size: 18px;
@@ -1197,8 +1230,8 @@
   .footer-one,
   .footer-two {
     flex-direction: column;
-    width: 327px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     gap: 30px;
   }
 
@@ -1207,18 +1240,31 @@
   .documentation,
   .resources {
     align-self: center;
-    width: 123px;
-    height: 229px;
+    width: 132px;
+    height: 150px;
     gap: 20px;
+    position: relative;
+    right: 10px;
   }
 
   .company h3,
-  .footer-fratures h3,
-  .documentation h3,
-  .resources h3 {
+  .footer-features h3 {
+    position: relative;
+    left: 10px;
     font-size: 20px;
     width: 97px;
     height: 24px;
+  }
+
+  .documentation h3 {
+    position: relative;
+    right: 10px;
+  }
+
+  .resources h3 {
+    position: relative;
+    left: 10px;
+    padding-top: 15px;
   }
 
   .company-list,
@@ -1230,69 +1276,21 @@
     gap: 20px;
   }
 
-  .company-list ul,
-  .footer-features-list ul,
-  .documentation-list ul,
-  .resources-list ul {
-    width: 123px;
-    height: 21px;
-    gap: 9px;
+  .resources-list {
+    position: relative;
+    right: 10px;
+    padding-top: 15px;
   }
 
   .company-list li,
   .footer-features-list li,
   .documentation-list li,
-  .resources li {
-    width: 93px;
+  .resources-list li {
+    width: 100px;
     height: 21px;
     font-size: 18px;
     justify-content: center;
-    padding-right: 20px;
-  }
-
-  .company h3 {
     position: relative;
-    left: 20px;
-  }
-
-  .company-list {
-    position: relative;
-    right: 15px;
-  }
-
-  .footer-features {
-    position: relative;
-    right: 15px;
-  }
-
-  .footer-features h3 {
-    position: relative;
-    left: 40px;
-  }
-
-  .footer-features ul:hover {
-    display: none;
-  }
-
-  .documentation h3 {
-    position: relative;
-    left: 10px;
-  }
-
-  .documentation-list {
-    position: relative;
-    right: 5px;
-  }
-
-  .resources h3 {
-    position: relative;
-    left: 15px;
-    padding-top: 15px;
-  }
-
-  .resources-list {
-    position: relative;
-    right: 30px;
-    padding-top: 15px;
+    right: 20px;
   }
 }
