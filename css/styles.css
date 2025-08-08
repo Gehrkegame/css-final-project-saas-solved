@@ -27,7 +27,6 @@ header {
 }
 
 .links {
-  width: 450px;
   height: 57px;
   padding: 6px 14px;
   display: flex;
@@ -37,19 +36,6 @@ header {
 nav {
   display: flex;
   gap: 20px;
-}
-
-.nav-links {
-  width: 295px;
-  height: 17px;
-  display: flex;
-  flex-direction: row;
-  gap: 13px;
-  margin-top: 15px;
-}
-
-.bars {
-  display: none;
 }
 
 .header-link a {
@@ -66,19 +52,6 @@ nav {
   color: rgba(36, 118, 255, 1);
 }
 
-.buy-button {
-  width: 102px;
-  height: 45px;
-  padding: 15px 25px;
-  display: flex;
-  gap: 20px;
-  font-family: Inter;
-  font-weight: 700;
-  font-size: 11px;
-  line-height: 100%;
-  color: rgba(255, 255, 255, 1);
-}
-
 .buy-button p {
   width: 52px;
   height: 15px;
@@ -86,10 +59,14 @@ nav {
 
 .hero-section {
   display: flex;
-  width: 100%;
   height: 446px;
   padding-right: 30px;
   padding-left: 30px;
+  justify-content: center;
+}
+
+.background-image {
+  width: 100%;
 }
 
 .bg {
@@ -102,16 +79,10 @@ nav {
 
 .top {
   display: flex;
-  justify-content: center;
-  width: 970px;
-  gap: 30px;
-  position: absolute;
-  left: 330px;
+  justify-content: space-between;
 }
 
 .left-part {
-  width: 482px;
-  height: 305px;
   display: flex;
   gap: 30px;
   padding-bottom: 60px;
@@ -119,15 +90,13 @@ nav {
 }
 
 .title {
-  width: 482px;
-  height: 172px;
   display: flex;
   flex-direction: column;
   gap: 11px;
+  width: 340px;
 }
 
 .title h1 {
-  width: 334px;
   height: 144px;
   margin-bottom: 0;
   font-family: Inter;
@@ -149,7 +118,6 @@ nav {
 
 .action {
   display: flex;
-  width: 482px;
   height: 48px;
   gap: 24px;
 }
@@ -194,7 +162,6 @@ nav {
 
 .right-part {
   display: flex;
-  width: 482px;
   height: 406px;
   position: relative;
   right: 70px;
@@ -299,45 +266,7 @@ nav {
   animation: upward 3s none;
 }
 
-@keyframes right-way {
-  from {
-    transform: translate(50px);
-  }
-
-  to {
-    transform: translate(-50px);
-  }
-
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 2;
-  }
-}
-
-@keyframes upward {
-  from {
-    transform: translateY(100px);
-  }
-
-  to {
-    transform: translateY(-10px);
-  }
-
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 2;
-  }
-}
-
 .why-section {
-  width: 1024px;
-  height: 354px;
   display: flex;
   gap: 40px;
   padding-right: 30px;
@@ -348,8 +277,6 @@ nav {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 100%;
-  height: 354px;
   gap: 40px;
   padding-top: 20px;
   padding-right: 30px;
@@ -360,11 +287,8 @@ nav {
 .why-text {
   display: flex;
   flex-direction: column;
-  position: relative;
-  left: 400px;
-  width: 600px;
-  height: 89px;
-  gap: 10px;
+  align-items: center;
+  gap: 20px;
 }
 
 .why-text h2 {
@@ -389,12 +313,7 @@ nav {
 
 .why-list {
   display: flex;
-  width: 964px;
-  height: 145px;
-  padding-right: 34px;
-  padding-left: 34px;
-  position: relative;
-  left: 210px;
+  justify-content: center;
 }
 
 .dot-container {
@@ -909,7 +828,6 @@ nav {
 }
 
 .data {
-  width: 482px;
   height: 648px;
   display: flex;
   gap: 37px;
