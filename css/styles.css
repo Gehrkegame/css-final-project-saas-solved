@@ -80,6 +80,7 @@ nav {
 .top {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .left-part {
@@ -93,11 +94,9 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 11px;
-  width: 340px;
 }
 
 .title h1 {
-  height: 144px;
   margin-bottom: 0;
   font-family: Inter;
   font-weight: 500;
@@ -107,8 +106,6 @@ nav {
 }
 
 .title p {
-  width: 334px;
-  height: 17px;
   font-family: Inter;
   font-weight: 500;
   font-size: 14px;
