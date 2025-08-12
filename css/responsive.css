@@ -61,8 +61,51 @@
     }
   }
 
+  .right-part {
+    right: 20px;
+  }
+
   .title {
     width: 340px;
+  }
+
+  .google {
+    top: 10px;
+    left: 130px;
+  }
+
+  .atlassin {
+    top: 10px;
+    left: 175px;
+  }
+
+  .asana {
+    top: 10px;
+    left: 290px;
+  }
+
+  .paypal {
+    top: 172px;
+    right: 100px;
+  }
+
+  .google-ads {
+    top: 290px;
+    right: 80px;
+  }
+
+  .weave {
+    top: 172px;
+    right: 50px;
+  }
+
+  .calender {
+    top: 310px;
+    right: 20px;
+  }
+
+  .primary-table {
+    width: 370px;
   }
 }
 
@@ -104,12 +147,91 @@
     align-items: center;
   }
 
+  .title h1 {
+    padding-left: 25px;
+  }
+
   .title p {
     align-self: center;
+    padding-left: 20px;
   }
 
   .action {
     align-self: center;
+  }
+
+  .right-part {
+    top: 110px;
+  }
+
+  .google {
+    top: 0px;
+    left: 110px;
+  }
+
+  .atlassin {
+    left: 245px;
+  }
+
+  .asana {
+    left: 420px;
+  }
+
+  .paypal {
+    top: 110px;
+    right: 105px;
+  }
+
+  .google-ads {
+    top: 209px;
+    right: 70px;
+  }
+
+  .weave {
+    top: 105px;
+    left: 70px;
+  }
+
+  .calender {
+    top: 229px;
+    left: 100px;
+  }
+
+  .why-section {
+    padding-top: 230px;
+  }
+
+  .pricing-table {
+    flex-direction: column;
+  }
+
+  .primary-table {
+    align-self: center;
+  }
+
+  .price {
+    align-self: center;
+  }
+
+  br {
+    display: none;
+  }
+
+  .features {
+    align-self: center;
+  }
+
+  .primary-bottom {
+    align-self: center;
+  }
+
+  .features-one {
+    width: 100%;
+  }
+
+  .puzzle p,
+  .diamond p {
+    width: 290px;
   }
 }
 
