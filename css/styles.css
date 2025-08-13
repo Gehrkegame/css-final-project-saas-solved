@@ -425,6 +425,7 @@ nav {
   padding: 40px;
   background: rgba(255, 255, 255, 1);
   border: 1px solid rgba(226, 226, 226, 1);
+  justify-content: center;
 }
 
 .primary-table:hover {
@@ -509,7 +510,6 @@ nav {
 }
 
 .features {
-  width: 100%;
   height: 452px;
   display: flex;
   gap: 10px;
@@ -524,7 +524,6 @@ nav {
 .features-one {
   height: 219px;
   display: flex;
-  gap: 100px;
 }
 
 .features-items {
@@ -599,7 +598,6 @@ nav {
   height: 201px;
   display: flex;
   flex-direction: row;
-  gap: 10px;
 }
 
 .tag {
@@ -683,7 +681,6 @@ nav {
 
 .hire-us-section {
   width: 100%;
-  height: 708px;
   display: flex;
   padding: 30px;
   background: rgba(32, 51, 91, 1);
@@ -692,11 +689,12 @@ nav {
 
 .left-path {
   width: 482px;
-  height: 648px;
+  height: 730px;
   display: flex;
-  flex-direction: column;
-  gap: 60px;
+
   padding-left: 70px;
+  align-content: center;
+  gap: 50px;
 }
 
 .left-path hr {
@@ -706,7 +704,6 @@ nav {
 }
 
 .hire-top {
-  width: 370px;
   height: 180px;
   display: flex;
   flex-direction: column;
@@ -714,11 +711,10 @@ nav {
 }
 
 .hire-title {
-  width: 370px;
   height: 100px;
   display: flex;
   flex-direction: column;
-  gap: 34px;
+  gap: 5px;
 }
 
 .hire-title h2 {
@@ -759,8 +755,7 @@ nav {
 }
 
 .hire-bottom {
-  width: 208px;
-  height: 123px;
+  height: 280px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -809,7 +804,6 @@ nav {
 }
 
 .right-path {
-  width: 482px;
   height: 648px;
   display: flex;
   gap: 10px;
@@ -825,7 +819,6 @@ nav {
 }
 
 form {
-  width: 392px;
   height: 506px;
   display: flex;
   flex-direction: column;
@@ -833,7 +826,6 @@ form {
 }
 
 form h2 {
-  width: 392px;
   height: 48px;
   font-family: SF Pro;
   font-weight: 700;
@@ -843,7 +835,6 @@ form h2 {
 }
 
 .data input {
-  width: 186px;
   height: 44px;
   display: flex;
   gap: 10px;
@@ -854,22 +845,21 @@ form h2 {
 }
 
 .name {
-  width: 392px;
   height: 44px;
   display: flex;
   flex-direction: row;
-  gap: 10px;
+}
+
+.last-name {
+  padding-left: 20px;
 }
 
 .email {
-  width: 392px;
   height: 44px;
   display: flex;
-  gap: 10px;
 }
 
 .email input {
-  width: 392px;
   height: 44px;
   display: flex;
   gap: 10px;
@@ -880,16 +870,13 @@ form h2 {
 }
 
 .where-you-live {
-  width: 392px;
   height: 44px;
   display: flex;
   gap: 20px;
 }
 
 .where-you-live select {
-  width: 186px;
   height: 44px;
-  justify-content: space-between;
   border-radius: 5px;
   border-width: 1px;
   padding-top: 10px;
@@ -897,15 +884,10 @@ form h2 {
   padding-bottom: 10px;
   padding-left: 10px;
   border: 1px solid rgba(230, 232, 242, 1);
-}
-
-#budget,
-#country {
-  background-color: rgba(230, 232, 242, 1);
+  background-color: white;
 }
 
 textarea {
-  width: 392px;
   height: 150px;
   display: flex;
   gap: 10px;
@@ -916,7 +898,6 @@ textarea {
 }
 
 .form-group {
-  width: 392px;
   height: 76px;
   display: flex;
   flex-wrap: wrap;
@@ -925,7 +906,6 @@ textarea {
 }
 
 #checkbox {
-  width: 25px;
   height: 28px;
   display: flex;
   gap: 10px;
@@ -934,14 +914,12 @@ textarea {
 }
 
 .form-group label {
-  width: 351px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
 .form-group h3 {
-  width: 351px;
   height: 44px;
   font-family: SF Pro;
   font-weight: 510;
@@ -1020,7 +998,7 @@ footer {
 }
 
 .footer-frame {
-  width: 964px;
+  width: 100%;
   height: 166px;
   display: flex;
   gap: 40px;
@@ -1110,7 +1088,6 @@ footer {
 .footer-features h3,
 .documentation h3,
 .resources h3 {
-  width: 88px;
   height: 21px;
   font-family: SF Pro;
   font-weight: 860;

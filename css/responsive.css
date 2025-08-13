@@ -107,6 +107,46 @@
   .primary-table {
     width: 370px;
   }
+
+  .hire-us-section {
+    height: 708px;
+    align-items: center;
+  }
+
+  .left-path {
+    flex-wrap: wrap;
+  }
+
+  form {
+    width: 392px;
+  }
+
+  .email input {
+    width: 392px;
+  }
+
+  .where-you-live select {
+    width: 186px;
+  }
+
+  textarea {
+    width: 392px;
+  }
+
+  #checkbox {
+    width: 25px;
+  }
+
+  .form-group h3 {
+    width: 351px;
+  }
+
+  .company h3,
+  .footer-features h3,
+  .documentation h3,
+  .resources h3 {
+    width: 88px;
+  }
 }
 
 @media (min-width: 768px) AND (max-width: 1023px) {
@@ -227,11 +267,99 @@
 
   .features-one {
     width: 100%;
+    gap: 100px;
   }
 
   .puzzle p,
   .diamond p {
     width: 290px;
+  }
+
+  .features-two {
+    width: 100%;
+    gap: 100px;
+  }
+
+  .hire-us-section {
+    flex-direction: column;
+    height: 984px;
+  }
+
+  .left-path {
+    flex-direction: row;
+  }
+
+  .right-path {
+    align-self: center;
+  }
+
+  .data {
+    width: 648px;
+  }
+
+  .data input {
+    width: 270px;
+  }
+
+  .name {
+    width: 100%;
+  }
+
+  .email input {
+    width: 560px;
+  }
+
+  .where-you-live {
+    width: 588px;
+  }
+
+  #budget {
+    width: 284px;
+  }
+
+  #country {
+    width: 260px;
+  }
+
+  .text-box {
+    width: 588px;
+  }
+
+  textarea {
+    width: 565px;
+  }
+
+  .form-group {
+    width: 565px;
+  }
+
+  #checkbox {
+    width: 45px;
+  }
+
+  .form-group h3 {
+    width: 460px;
+  }
+
+  .submit {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .business-info {
+    flex-direction: column;
+  }
+
+  .footer-frame {
+    padding-left: 70px;
+  }
+
+  .company h3,
+  .footer-features h3,
+  .documentation h3,
+  .resources h3 {
+    width: 143px;
   }
 }
 
