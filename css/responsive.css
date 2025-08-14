@@ -69,6 +69,10 @@
     width: 340px;
   }
 
+  .title h1 {
+    font-size: 40px;
+  }
+
   .google {
     top: 10px;
     left: 130px;
@@ -104,8 +108,17 @@
     right: 20px;
   }
 
+  .why-text p {
+    width: 600px;
+  }
+
   .primary-table {
     width: 370px;
+  }
+
+  .features {
+    height: 452px;
+    gap: 10px;
   }
 
   .hire-us-section {
@@ -115,6 +128,14 @@
 
   .left-path {
     flex-wrap: wrap;
+  }
+
+  .dot-container {
+    width: 205px;
+  }
+
+  .left-path hr {
+    width: 100%;
   }
 
   form {
@@ -189,6 +210,7 @@
 
   .title h1 {
     padding-left: 25px;
+    font-size: 40px;
   }
 
   .title p {
@@ -289,6 +311,10 @@
     flex-direction: row;
   }
 
+  .left-path hr {
+    width: 100%;
+  }
+
   .right-path {
     align-self: center;
   }
@@ -352,7 +378,7 @@
   }
 
   .footer-frame {
-    padding-left: 70px;
+    padding-left: 70px360;
   }
 
   .company h3,
@@ -384,5 +410,125 @@
   .top {
     flex-direction: column;
     align-items: center;
+  }
+
+  .title h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .title p {
+    text-align: center;
+  }
+
+  .action {
+    align-self: center;
+  }
+
+  .google {
+    right: 15px;
+  }
+
+  .atlassin {
+    left: 50px;
+  }
+
+  .asana {
+    left: 95px;
+  }
+
+  .paypal {
+    top: 105px;
+    right: 230px;
+  }
+
+  .google-ads {
+    top: 209px;
+    right: 205px;
+  }
+
+  .weave {
+    top: 105px;
+    right: 190px;
+  }
+
+  .calender {
+    top: 225px;
+    right: 225px;
+  }
+
+  .why-section {
+    margin-top: 130px;
+  }
+
+  .why-text p {
+    width: 328px;
+  }
+
+  .why-list {
+    flex-direction: column;
+  }
+
+  .leftwing-start,
+  #rightwing,
+  #leftwing {
+    display: none;
+  }
+
+  .dot-container {
+    width: 292px;
+    display: flex;
+    gap: 24px;
+  }
+
+  .pricing-table {
+    flex-direction: column;
+  }
+
+  .primary-table {
+    width: 328px;
+    align-self: center;
+  }
+
+  .plan-header {
+    width: 215px;
+  }
+
+  .price {
+    align-self: center;
+  }
+
+  br {
+    display: none;
+  }
+
+  .plan-header p {
+    width: 245px;
+  }
+
+  .primary-bottom {
+    align-self: center;
+  }
+
+  .features {
+    height: 844px;
+    gap: 203px;
+  }
+
+  .features-one,
+  .features-two {
+    flex-direction: column;
+  }
+
+  .hire-us-section {
+    flex-direction: column;
+  }
+
+  .left-path {
+    flex-direction: column;
+  }
+
+  .left-path hr {
+    width: 330px;
   }
 }
