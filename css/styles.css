@@ -685,7 +685,7 @@ nav {
 }
 
 .left-path {
-  height: 730px;
+  height: 510px;
   display: flex;
   align-content: center;
   gap: 90px;
@@ -735,7 +735,6 @@ nav {
 }
 
 .quote p {
-  width: 363px;
   height: 48px;
   font-family: Inter;
   font-weight: 500;
@@ -795,13 +794,11 @@ nav {
 }
 
 .right-path {
-  height: 648px;
   display: flex;
   gap: 10px;
 }
 
 .data {
-  height: 648px;
   display: flex;
   gap: 37px;
   padding: 30px;
@@ -836,13 +833,7 @@ form h2 {
 }
 
 .name {
-  height: 44px;
   display: flex;
-  flex-direction: row;
-}
-
-.last-name {
-  padding-left: 20px;
 }
 
 .email {
@@ -891,7 +882,7 @@ textarea {
 .form-group {
   height: 76px;
   display: flex;
-  flex-wrap: wrap;
+
   gap: 16px;
   border-radius: 5px;
 }
@@ -907,7 +898,6 @@ textarea {
 .form-group label {
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
 .form-group h3 {
@@ -952,12 +942,14 @@ textarea {
   color: rgba(36, 118, 255, 1);
 }
 
+.submit {
+  align-self: center;
+}
+
 #submit {
   width: 125px;
   height: 45px;
   display: flex;
-  position: relative;
-  left: 130px;
   gap: 24px;
   border-radius: 30px;
   padding-top: 15px;

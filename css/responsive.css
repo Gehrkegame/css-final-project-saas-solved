@@ -138,8 +138,16 @@
     width: 100%;
   }
 
+  .right-path {
+    height: 648px;
+  }
+
   form {
     width: 392px;
+  }
+
+  .name {
+    flex-direction: row;
   }
 
   .email input {
@@ -167,6 +175,26 @@
   .documentation h3,
   .resources h3 {
     width: 88px;
+  }
+
+  .last-name {
+    padding-left: 20px;
+  }
+
+  .data {
+    height: 648px;
+  }
+
+  .form-group {
+    flex-wrap: wrap;
+  }
+
+  .form-group label {
+    gap: 10px;
+  }
+
+  .submit {
+    padding-top: 15px;
   }
 }
 
@@ -530,5 +558,83 @@
 
   .left-path hr {
     width: 330px;
+  }
+
+  .hire-top {
+    padding-top: 40px;
+  }
+
+  .hire-title h2,
+  .hire-title p {
+    text-align: center;
+  }
+
+  .quote {
+    align-self: center;
+  }
+
+  .quote p {
+    text-align: center;
+  }
+
+  .quote p {
+    width: 335px;
+    padding-left: 24px;
+  }
+
+  .hire-bottom {
+    padding-top: 45px;
+    align-self: center;
+  }
+
+  .person {
+    text-align: center;
+  }
+
+  .person h3 {
+    align-self: center;
+  }
+
+  #man-one {
+    padding-top: 15px;
+  }
+
+  .right-path {
+    width: 330px;
+    height: 880px;
+    align-self: center;
+  }
+
+  .data {
+    width: 330px;
+    height: 820px;
+  }
+
+  .name {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #first-name,
+  #last-name,
+  .email input,
+  .where-you-live,
+  textarea,
+  .form-group {
+    width: 270px;
+  }
+
+  .where-you-live {
+    flex-direction: column;
+    padding-bottom: 100px;
+  }
+
+  .form-group label {
+    width: 190px;
+    gap: 50px;
+  }
+
+  .submit {
+    padding-top: 45px;
   }
 }
