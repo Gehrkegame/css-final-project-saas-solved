@@ -127,7 +127,7 @@
   }
 
   .left-path {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .dot-container {
@@ -195,6 +195,22 @@
 
   .submit {
     padding-top: 15px;
+  }
+
+  footer {
+    height: 246px;
+  }
+
+  .footer-frame {
+    justify-content: center;
+  }
+
+  .number {
+    font-size: 14px;
+  }
+
+  .business-info {
+    width: 673px;
   }
 }
 
@@ -453,6 +469,11 @@
     align-self: center;
   }
 
+  .right-part {
+    justify-content: center;
+    left: 105px;
+  }
+
   .google {
     right: 15px;
   }
@@ -636,5 +657,32 @@
 
   .submit {
     padding-top: 45px;
+  }
+
+  .footer-frame {
+    flex-direction: column;
+  }
+
+  .address {
+    justify-content: center;
+  }
+
+  .footer-font {
+    align-self: center;
+  }
+
+  .address p {
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  .business-info {
+    flex-direction: column;
+  }
+
+  .footer-one,
+  .footer-two {
+    flex-direction: column;
+    align-self: center;
   }
 }
